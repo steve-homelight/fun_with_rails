@@ -11,7 +11,7 @@ This tool allows real estate agents to upload and manager their past real estate
 * Have the tech installed in the dev env
 * Clone the repo locally
 * Run `bundle install`
-* Run `db:setup`
+* Run `rake db:setup`
 * Run `rails server`
 * Navigate to `localhost:3000`
 
