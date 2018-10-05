@@ -1,6 +1,6 @@
 class UploadedTransactionsController < ApplicationController
   def new
-    @agent = Agent.find(params[:agent_id])
+    @agent = Agent.find(params[:agent_id]).includes([:uploaded_buyer_transactions, :uploaded_seller_transactions])
     @uploaded_transaction = @agent.uploaded_seller_transactions.new
   end
 
