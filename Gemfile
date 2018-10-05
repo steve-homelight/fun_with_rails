@@ -16,6 +16,7 @@ gem "awesome_print"
 gem "slim"
 gem "jquery-rails"
 gem "bootstrap"
+gem "will_paginate-bootstrap4"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
