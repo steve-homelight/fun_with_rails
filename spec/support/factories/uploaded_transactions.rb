@@ -19,7 +19,7 @@ FactoryGirl.define do
     status { statuses.sample }
     property_type { property_types.sample }
 
-    trait :random_agent_assoication do
+    trait :random_agent_association do
       listing_agent { listing_agent }
       selling_agent { selling_agent }
     end
